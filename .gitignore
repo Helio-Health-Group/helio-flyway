@@ -1,0 +1,6 @@
+# IDE ignores
+/.idea
+*.iml
+
+/.gradle
+/build
