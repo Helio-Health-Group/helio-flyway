@@ -21,7 +21,7 @@ flyway {
     defaultSchema = 'public'
     schemas = [
             'public',
-            'helio'
+            'fda'
     ]
     createSchemas = true
     table = 'helio_version'
