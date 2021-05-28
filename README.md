@@ -15,9 +15,10 @@ E.g.,
 `gradlew -Pflyway.user=postgres -Pflyway.url=jdbc:postgresql://<url>/<database> -Pflyway.password=<password> flywayMigrate`
 
 # Part 1 Challenge Tasks:
-1. Pick 2 files from the src/main/resources/files directory (other than Acronyms) that have some similar properties 
+1. Pick 2 files from the src/main/resources/files directory that have some similar properties 
    (e.g. drug name, state, etc.)
-2. Create 2 Tables for both files and add the table creations to the migrations steps. Consider your table design please.
+2. Create 2 Tables for both files and add the table creations to the migrations steps. 
+   - Consider your table design and think about the types.
 3. Load the data into their respective tables
     - Data can either be loaded via migration script, or some call/function via Flyway 
       (language choice does not matter here as long as it runs within this project via `flywayMigrate`)
